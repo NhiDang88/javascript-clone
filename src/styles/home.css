@@ -165,7 +165,6 @@
   padding-left: 0;
   font-size: 1em;
   width: 265px;
-  height: 411px;
 }
 
 .home .category-details {
@@ -210,8 +209,8 @@
 }
 
 .home .salt-icon-compass {
-  height: calc(100% + 15px);
-  width: calc(100% + 15px);
+  height: 65px;
+  width: 65px;
   background-position: 0 15.7894736842%;
 }
 
@@ -242,4 +241,19 @@
   margin-bottom: 10px;
   line-height: 1.4;
   letter-spacing: 0;
+}
+
+.home .home-details-text {
+  font-family: Montserrat, Arial, sans-serif;
+  margin: 0;
+}
+
+.home .salt-icon-budget {
+  background-position: 0 10.5263157895%;
+  height: 50px;
+  width: 50px;
+}
+
+.home .category-details-currency {
+  margin-top: 50px;
 }
