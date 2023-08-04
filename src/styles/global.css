@@ -1,0 +1,30 @@
+/* Set font family */
+@font-face {
+  font-family: headings;
+  font-display: swap;
+  font-weight: 700;
+  src: url(https://static.saltinourhair.com/build/fonts/SaltHeading.woff2)
+      format("woff2"),
+    url(https://static.saltinourhair.com/build/fonts/SaltHeading.woff)
+      format("woff");
+}
+
+@font-face {
+  font-family: written;
+  font-display: block;
+  font-weight: 300;
+  src: url(https://static.saltinourhair.com/build/fonts/SaltWritten.woff2)
+      format("woff2"),
+    url(https://static.saltinourhair.com/build/fonts/SaltWritten.woff)
+      format("woff");
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://static.saltinourhair.com/build/fonts/montserrat-reg.woff2)
+      format("woff2"),
+    url(https://static.saltinourhair.com/build/fonts/montserrat-reg.woff)
+      format("woff");
+}

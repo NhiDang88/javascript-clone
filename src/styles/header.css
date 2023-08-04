@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  left: 0;
+  margin: 0 auto;
+  max-width: 100rem;
+  justify-content: space-between;
+  height: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  pointer-events: all;
+  top: 0;
+  width: 100%;
+  align-items: center;
+  background: 0 0;
+}
+
+.header .header-logo-frame {
+  display: flex;
+  position: relative;
+  align-self: center;
+  -webkit-box-flex: 0;
+  flex: 0 1 auto;
+  height: auto;
+  letter-spacing: 0.1px;
+}
+
+.header .header-logo-link {
+  position: relative;
+  white-space: nowrap;
+  width: 100%;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  height: 60px;
+  padding: 0 28px 0 0;
+}
+
+.header .header-logo {
+  height: 23px;
+  width: 114px;
+  object-fit: fill;
+}

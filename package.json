@@ -1,0 +1,16 @@
+{
+  "name": "salt-in-our-hair-1",
+  "version": "1.0.0",
+  "description": "Salt in our hair",
+  "source": "src/pages/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/pages/index.html",
+    "build": "parcel build"
+  },
+  "author": "Nhi Dang",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
