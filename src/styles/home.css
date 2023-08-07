@@ -109,7 +109,7 @@
   transition-delay: 0.8s;
 }
 
-.home-title::before {
+/* .home-title::before {
   position: absolute;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-color: currentColor;
@@ -137,7 +137,7 @@
   transition-delay: 0.8s;
   transform: translate(-0.06em, -0.06em);
   will-change: transform;
-}
+} */
 
 .home .home-excerpt {
   font-family: Montserrat, Arial, sans-serif;

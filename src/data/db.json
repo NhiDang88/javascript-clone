@@ -1,0 +1,46 @@
+{
+  "destination": [
+    {
+      "id": "1",
+      "logo": "https://icons.iconarchive.com/icons/github/octicons/256/copilot-96-icon.png",
+      "name": "Vietnam",
+      "category": "Asia"
+    },
+    {
+      "id": "2",
+      "logo": "https://softwarelist.oregonstate.edu/sites/softwarelist.oregonstate.edu/files/styles/software_image/public/software/slack.gif?itok=UDySX6zN",
+      "name": "Korea",
+      "category": "Asia"
+    },
+    {
+      "id": "3",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg",
+      "name": "Egypt",
+      "category": "Africa"
+    },
+    {
+      "id": "4",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg",
+      "name": "Morocco",
+      "category": "Africa"
+    },
+    {
+      "id": "5",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg",
+      "name": "Jordan",
+      "category": "Middle East"
+    },
+    {
+      "id": "6",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg",
+      "name": "Spain",
+      "category": "Europe"
+    },
+    {
+      "id": "7",
+      "logo": "https://cdn.icon-icons.com/icons2/2428/PNG/512/slack_black_logo_icon_147081.png",
+      "name": "Italy",
+      "category": "Europe"
+    }
+  ]
+}
