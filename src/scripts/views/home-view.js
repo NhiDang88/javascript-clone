@@ -13,9 +13,9 @@ async function displayRandomDestination(destinations) {
 }
 
 // Fetch data from JSON Server and display random destination
-async function fetchDataAndDisplay() {
+async function DisplayRandom() {
   try {
-    const response = await fetch('http://localhost:3000/destination');
+    const response = await fetch(`${process.env.REACT_APP_API_URL}/destination`);
     const data = await response.json();
     displayRandomDestination(data);
   } catch (error) {
@@ -24,4 +24,4 @@ async function fetchDataAndDisplay() {
 }
 
 // Display a random destination name when the page loads
-export {fetchDataAndDisplay};
+export {DisplayRandom};

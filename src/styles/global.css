@@ -28,3 +28,15 @@
     url(https://static.saltinourhair.com/build/fonts/montserrat-reg.woff)
       format("woff");
 }
+
+/* sprite img */
+.salt-icon {
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  z-index: 1;
+  background-size: 100%;
+  display: inline-block;
+  background-image: url(../assets/images/header/sprite.png);
+}

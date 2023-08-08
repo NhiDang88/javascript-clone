@@ -1,3 +1,12 @@
-import {fetchDataAndDisplay} from "./views/home-view";
+import {DisplayRandom} from "./views/home-view";
+DisplayRandom();
 
-fetchDataAndDisplay();
+import DestinationModel from "./models/destination-model";
+import DestinationView from "./views/destination-view";
+import DestinationController from "./controllers/destination-controller";
+
+const destinationModel = new DestinationModel()
+const destinationView = new DestinationView()
+const destinationController = new DestinationController(destinationModel, destinationView)
+
+destinationController.init()

@@ -1,5 +1,8 @@
 @import url(./reset.css);
 @import url(./global.css);
 
+@import url(./container.css);
+
 @import url(./home.css);
 @import url(./header.css);
+@import url(./destination.css);
