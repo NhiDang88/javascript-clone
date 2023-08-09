@@ -5,13 +5,13 @@ export default class DestinationController {
     this.destinationView = destinationView;
   }
 
-  init = async () => {
-    try {
-      const response = await this.destinationModel.getDestinationListModel();
+  init =  () => {
+    // try {
+    //   const response = await this.destinationModel.getDestinationListModel();
 
-      this.destinations = response;
-      console.log(response);
-    } catch (error) {}
+    //   this.destinations = response;
+    //   console.log(response);
+    // } catch (error) {}
 
     this.handleGetDestinationList();
     this.handleGetDestinationRandom();

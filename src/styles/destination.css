@@ -48,6 +48,7 @@
   font-size: 15px;
   text-transform: uppercase;
   margin: 0 20px;
+  border-top: 1px solid rgba(216,196,195,.2);
 }
 
 #destinationList img {
@@ -183,4 +184,17 @@
   width: 650px;
   height: 375px;
   object-fit: cover;
+}
+
+.destination .category-frame {
+  align-items: center;
+  width: 100%;
+  margin: 0 20px;
+  font-size: 15px;
+  display: inline-flex;
+  padding-top: 15px;
+}
+
+.destination .destination-label {
+  font-family: Montserrat, Arial, sans-serif;
 }

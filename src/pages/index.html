@@ -98,13 +98,17 @@
       <div class="destination-intro">
         <div class="destination-intro-title">Pick a destination</div>
         <div class="destination-intro-frame">
-          <label for="category">Select a category:</label>
-          <select id="category">
-            <option value="All">All</option>
-            <option value="Africa">Africa</option>
-            <option value="Middle East">Middle East</option>
-            <option value="Europe">Europe</option>
-          </select>
+          <div class="category-frame">
+            <label class="destination-label" for="category"
+              >Select a category:</label
+            >
+            <select id="category">
+              <option value="All">All</option>
+              <option value="Africa">Africa</option>
+              <option value="Middle East">Middle East</option>
+              <option value="Europe">Europe</option>
+            </select>
+          </div>
           <ul id="destinationList" class="destination-intro-list"></ul>
         </div>
       </div>
@@ -136,6 +140,22 @@
     <section class="blog">
       <div class="blog-articles">
         <h3 class="articles-title">Must-do's in Bali</h3>
+        <form
+          role="search"
+          class="blog-search-form"
+          method="get"
+        >
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search by title..."
+          /><button
+            type="submit"
+            class="category-intro__search-btn"
+            title="Search Blogs"
+          >search
+          </button>
+        </form>
       </div>
       <ul class="blog-list">
         <li class="blog-item">
