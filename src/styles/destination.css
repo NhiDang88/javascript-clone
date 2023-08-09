@@ -1,7 +1,7 @@
 .destination {
   position: relative;
   display: grid;
-  justify-content: space-between;
+  justify-content: center;
   grid-column-gap: 25px;
   grid-template-columns: 300px minmax(auto, 650px);
   gap: 160px;

@@ -1,4 +1,4 @@
-import { getDestinationListService } from "../services/destination-service";
+import { getDestinationListService } from "../services/blog-service";
 
 export default class DestinationModel {
   constructor() {}

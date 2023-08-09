@@ -1,46 +1,74 @@
 {
-  "destination": [
+  "blog": [
     {
       "id": "1",
-      "logo": "https://assets.wego.com/image/upload/v1611848131/country-pages/vn.jpg",
-      "name": "Vietnam",
-      "category": "Asia"
+      "image": "https://assets.wego.com/image/upload/v1611848131/country-pages/vn.jpg",
+      "country": "Vietnam",
+      "category": "Asia",
+      "createdAt": 2,
+      "updatedAt": 5,
+      "title": "12 x Things To Do on Nusa Lembongan & Ceningan",
+      "content": 1
     },
     {
       "id": "2",
-      "logo": "https://worldstrides.com/wp-content/uploads/2015/07/MAP_Korea_gyeonbokgung-palace-seoul_18759736.jpg",
-      "name": "Korea",
-      "category": "Asia"
+      "image": "https://worldstrides.com/wp-content/uploads/2015/07/MAP_Korea_gyeonbokgung-palace-seoul_18759736.jpg",
+      "country": "Korea",
+      "category": "Asia",
+      "createdAt": 2,
+      "updatedAt": 5,
+      "title": "12 x Things To Do on Nusa Lembongan & Ceningan",
+      "content": 1
     },
     {
       "id": "3",
-      "logo": "https://facts.net/wp-content/uploads/2023/06/38-facts-about-egypt-1688101892.jpeg",
-      "name": "Egypt",
-      "category": "Africa"
+      "image": "https://facts.net/wp-content/uploads/2023/06/38-facts-about-egypt-1688101892.jpeg",
+      "country": "Egypt",
+      "category": "Africa",
+      "createdAt": 2,
+      "updatedAt": 5,
+      "title": "12 x Things To Do on Nusa Lembongan & Ceningan",
+      "content": 1
     },
     {
       "id": "4",
-      "logo": "https://visaguide.world/wp-content/uploads/2022/06/Chefchaouen-Morocco.jpg",
-      "name": "Morocco",
-      "category": "Africa"
+      "image": "https://visaguide.world/wp-content/uploads/2022/06/Chefchaouen-Morocco.jpg",
+      "country": "Morocco",
+      "category": "Africa",
+      "createdAt": 2,
+      "updatedAt": 5,
+      "title": "12 x Things To Do on Nusa Lembongan & Ceningan",
+      "content": 1
     },
     {
       "id": "5",
-      "logo": "https://cdn.britannica.com/22/153522-050-2FF48BAC/Al-Dayr-Petra-Jordan.jpg",
-      "name": "Jordan",
-      "category": "Middle East"
+      "image": "https://cdn.britannica.com/22/153522-050-2FF48BAC/Al-Dayr-Petra-Jordan.jpg",
+      "country": "Jordan",
+      "category": "Middle East",
+      "createdAt": 2,
+      "updatedAt": 5,
+      "title": "12 x Things To Do on Nusa Lembongan & Ceningan",
+      "content": 1
     },
     {
       "id": "6",
-      "logo": "https://i.natgeofe.com/k/e800ca90-2b5b-4dad-b4d7-b67a48c96c91/spain-madrid_16x9.jpg",
-      "name": "Spain",
-      "category": "Europe"
+      "image": "https://i.natgeofe.com/k/e800ca90-2b5b-4dad-b4d7-b67a48c96c91/spain-madrid_16x9.jpg",
+      "country": "Spain",
+      "category": "Europe",
+      "createdAt": 2,
+      "updatedAt": 5,
+      "title": "12 x Things To Do on Nusa Lembongan & Ceningan",
+      "content": 1
     },
     {
       "id": "7",
-      "logo": "https://lp-cms-production.imgix.net/features/2017/11/GettyRF_543346423-1-ab159824d5bd.jpg",
-      "name": "Italy",
-      "category": "Europe"
+      "image": "https://lp-cms-production.imgix.net/features/2017/11/GettyRF_543346423-1-ab159824d5bd.jpg",
+      "country": "Italy",
+      "category": "Europe",
+      "createdAt": 2,
+      "updatedAt": 5,
+      "title": "12 x Things To Do on Nusa Lembongan & Ceningan",
+      "content": 1
     }
   ]
 }

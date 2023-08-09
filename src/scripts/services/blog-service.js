@@ -1,5 +1,5 @@
 const request = async (method, data) => {
-  const url = `${process.env.REACT_APP_API_URL}/destination`;
+  const url = `${process.env.REACT_APP_API_URL}/blog`;
   const response = await fetch(url, {
     method,
     headers: {

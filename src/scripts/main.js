@@ -1,12 +1,63 @@
-import {DisplayRandom} from "./views/home-view";
-DisplayRandom();
+import DestinationModel from "./models/blog-model";
+import DestinationView from "./views/blog-view";
+import DestinationController from "./controllers/blog-controller";
 
-import DestinationModel from "./models/destination-model";
-import DestinationView from "./views/destination-view";
-import DestinationController from "./controllers/destination-controller";
+const destinationModel = new DestinationModel();
+const destinationView = new DestinationView();
+const app = new DestinationController(destinationModel, destinationView);
 
-const destinationModel = new DestinationModel()
-const destinationView = new DestinationView()
-const destinationController = new DestinationController(destinationModel, destinationView)
+app.init();
 
-destinationController.init()
+// const randomNumber = () => {
+//   const random = Math.random();
+
+//   return random;
+// };
+
+// const checkEven = (number) => {
+//   if (number % 2 === 0) return true;
+
+//   return false;
+// };
+
+// /**
+//  * A -> {
+//  *  cv1: random
+//  *  cv2: check is even
+//  *
+//  * }
+//  */
+
+// const a = () => {
+//   const random = randomNumber();
+//   const isEven = checkEven(2);
+
+//   console.log(isEven);
+// };
+
+
+/**
+ * MODELS
+ */
+
+// class TodoModel {
+
+// }
+
+
+/**
+ * VIEWS
+ */
+
+// class TodoView {
+
+// }
+
+
+/**
+ * CONTROLLERS
+ */
+
+// class TodoController {
+
+// }
