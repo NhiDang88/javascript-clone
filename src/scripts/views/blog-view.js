@@ -31,27 +31,27 @@ export default class DestinationView {
   };
 
   // Function to display a filtered list of destinations based on category
-  // displayFilteredDestinations = (filteredDestinations) => {
-  //   this.displayDestinationList(filteredDestinations);
-  // };
-
-  render = (filter) => {
-    const category = document.getElementById("category");
-
-    category.addEventListener("change", (event) => {
-      const element = event.target;
-      const value = element.value;
-
-      filter(value);
-    });
+  displayFilteredDestinations = (filteredDestinations) => {
+    this.displayDestinationList(filteredDestinations);
   };
 
-  init = (controller) => {
-    category.addEventListener("change", (event) => {
-      const element = event.target;
-      const value = element.value;
+  //   render = (filter) => {
+  //     const category = document.getElementById("category");
 
-      controller.getCate(value);
-    });
-  };
+  //     category.addEventListener("change", (event) => {
+  //       const element = event.target;
+  //       const value = element.value;
+
+  //       filter(value);
+  //     });
+  //   };
+
+  //   init = (controller) => {
+  //     category.addEventListener("change", (event) => {
+  //       const element = event.target;
+  //       const value = element.value;
+
+  //       controller.getCate(value);
+  //     });
+  //   };
 }

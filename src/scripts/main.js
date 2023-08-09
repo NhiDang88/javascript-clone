@@ -35,7 +35,6 @@ app.init();
 //   console.log(isEven);
 // };
 
-
 /**
  * MODELS
  */
@@ -43,7 +42,6 @@ app.init();
 // class TodoModel {
 
 // }
-
 
 /**
  * VIEWS
@@ -53,7 +51,6 @@ app.init();
 
 // }
 
-
 /**
  * CONTROLLERS
  */
@@ -61,3 +58,4 @@ app.init();
 // class TodoController {
 
 // }
+
