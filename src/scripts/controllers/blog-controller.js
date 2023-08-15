@@ -5,7 +5,7 @@ export default class DestinationController {
     this.destinationView = destinationView;
   }
 
-  init =  () => {
+  init = () => {
     // try {
     //   const response = await this.destinationModel.getDestinationListModel();
 
@@ -16,6 +16,11 @@ export default class DestinationController {
     this.handleGetDestinationList();
     this.handleGetDestinationRandom();
     this.handleCategoryChange();
+    this.handleGetBlogList();
+
+    this.handleOpenPopup();
+    this.handleClosePopup();
+    this.handleAddContent();
   };
 
   handleGetDestinationRandom = async () => {
@@ -63,7 +68,60 @@ export default class DestinationController {
     });
   };
 
-  // CRUD
+  // Read
+  handleGetBlogList = async () => {
+    try {
+      const response = await this.destinationModel.getDestinationListModel();
+      this.destinationView.displayBlogList(response);
+    } catch (error) {
+      console.error("Error display list");
+    }
+  };
+
+  handleOpenPopup = () => {
+    const openPopupBtn = document.getElementById("openPopupBtn");
+    openPopupBtn.addEventListener("click", () => {
+      this.destinationView.displayPopup();
+    });
+  };
+
+  handleClosePopup = () => {
+    const closePopupBtn = document.getElementById("closePopupBtn");
+    closePopupBtn.addEventListener("click", () => {
+      this.destinationView.closePopup();
+    });
+  };
+
+  // CREATE
+
+  handleAddContent = () => {
+    const addContentBtn = document.getElementById("addContentBtn");
+
+    addContentBtn.addEventListener("click", async () => {
+      // Get new content data from input fields
+      const newTitle = document.getElementById("newTitle").value;
+      const newCountry = document.getElementById("newCountry").value;
+      const newCategory = document.getElementById("newCategory").value;
+      const newImage = document.getElementById("newImage").value;
+
+      const newContent = {
+        title: newTitle,
+        country: newCountry,
+        category: newCategory,
+        image: newImage,
+      };
+
+      try {
+        // Call the addNewContentService function
+        await addNewContentService(newContent);
+
+        // Refresh the destination list or perform other necessary actions
+        this.handleGetDestinationList();
+      } catch (error) {
+        console.error("Error adding content:", error);
+      }
+    });
+  };
 
   // handleGetDestinationList = async () => {
   //   try {

@@ -7,4 +7,13 @@ export default class DestinationModel {
     const response = await getDestinationListService();
     return response;
   };
+
+  addNewContent = async (newContent) => {
+    try {
+      const response = await postContentService(newContent); // Replace with your API call
+      return response;
+    } catch (error) {
+      throw error;
+    }
+  };
 }

@@ -145,145 +145,31 @@
             type="text"
             id="searchInput"
             placeholder="Search by title..."
-          /><button
-            type="submit"
-            class="category-intro__search-btn"
-            title="Search Blogs"
-          >
+          /><button type="submit" class="blog-search-btn" title="Search Blogs">
             search
           </button>
         </form>
-        <div class="blog-add-frame">
-          <button class="blog-add-btn">
-            <img
-              class="blog-add-icon"
-              src="../assets/images/blog/add.png"
-              alt="add"
-            />
-          </button>
+
+        <button class="blog-add-btn" id="openPopupBtn">
+          <img
+            class="blog-add-icon"
+            src="../assets/images/blog/add.png"
+            alt="add"
+          />
+        </button>
+        <div id="popupContainer" class="popup-container">
+          <div class="popup-content">
+            <!-- Add your popup content here -->
+            <input type="text" id="newTitle" placeholder="Title" />
+            <input type="text" id="newCountry" placeholder="Country" />
+            <input type="text" id="newCategory" placeholder="Category" />
+            <input type="text" id="newImage" placeholder="Image URL" />
+            <button id="addContentBtn">Add Content</button>
+            <button id="closePopupBtn">Cancel</button>
+          </div>
         </div>
       </div>
-      <ul class="blog-list">
-        <li class="blog-item">
-          <div
-            class="blog-frame"
-            title="12 x Things To Do on Nusa Lembongan &amp; Ceningan"
-          >
-            <div class="blog-content">
-              <h2 class="blog-title">
-                12 x Things To Do on Nusa Lembongan &amp; Ceningan
-              </h2>
-              <h3 class="blog-subtitle">Bali</h3>
-            </div>
-            <img
-              class="blog-img"
-              src="https://static.saltinourhair.com/wp-content/uploads/2019/10/23131200/nusa-lembongan-guide-30x22.jpg"
-              data-sizes="auto"
-              data-srcset="https://static.saltinourhair.com/wp-content/uploads/2019/10/23131200/nusa-lembongan-guide-800x600.jpg 800w, https://static.saltinourhair.com/wp-content/uploads/2019/10/23131200/nusa-lembongan-guide-1080x810.jpg 1080w"
-              class="lazypreload lazyautosizes ls-is-cached lazyloaded"
-              alt="12 x Things To Do on Nusa Lembongan &amp; Ceningan"
-              width="800"
-              height="600"
-              sizes="357px"
-              srcset="
-                https://static.saltinourhair.com/wp-content/uploads/2019/10/23131200/nusa-lembongan-guide-800x600.jpg   800w,
-                https://static.saltinourhair.com/wp-content/uploads/2019/10/23131200/nusa-lembongan-guide-1080x810.jpg 1080w
-              "
-            />
-          </div>
-        </li>
-        <div class="blog-item">
-          <a class="blog-frame" title="Tegalalang Rice Terrace at Ubud, Bali"
-            ><div class="blog-content">
-              <h2 class="blog-title">Tegalalang Rice Terrace at Ubud, Bali</h2>
-              <h3 class="blog-subtitle">Bali</h3>
-            </div>
-            <div class="article-block__image">
-              <div class="article-block__image-link">
-                <img
-                  class="blog-img"
-                  src="https://static.saltinourhair.com/wp-content/uploads/2018/10/23145918/tegalalang-rice-terraces-ubud-drone-30x22.jpg"
-                  data-sizes="auto"
-                  data-srcset="https://static.saltinourhair.com/wp-content/uploads/2018/10/23145918/tegalalang-rice-terraces-ubud-drone-800x600.jpg 800w, https://static.saltinourhair.com/wp-content/uploads/2018/10/23145918/tegalalang-rice-terraces-ubud-drone-1080x810.jpg 1080w"
-                  class="lazypreload lazyautosizes ls-is-cached lazyloaded"
-                  alt="Tegalalang Rice Terrace at Ubud, Bali"
-                  width="800"
-                  height="600"
-                  sizes="357px"
-                  srcset="
-                    https://static.saltinourhair.com/wp-content/uploads/2018/10/23145918/tegalalang-rice-terraces-ubud-drone-800x600.jpg   800w,
-                    https://static.saltinourhair.com/wp-content/uploads/2018/10/23145918/tegalalang-rice-terraces-ubud-drone-1080x810.jpg 1080w
-                  "
-                />
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="blog-item">
-          <a
-            class="blog-frame"
-            href="https://www.saltinourhair.com/bali/munduk-bali/"
-            title="7 Great Things To Do in Munduk, North Bali"
-            ><div class="blog-content">
-              <h2 class="blog-title">
-                7 Great Things To Do in Munduk, North Bali
-              </h2>
-              <h3 class="blog-subtitle">Bali</h3>
-            </div>
-            <div class="article-block__image">
-              <div class="article-block__image-link">
-                <img
-                  class="blog-img"
-                  src="https://static.saltinourhair.com/wp-content/uploads/2019/11/23125338/things-to-do-munduk-bali-30x27.jpg"
-                  data-sizes="auto"
-                  data-srcset="https://static.saltinourhair.com/wp-content/uploads/2019/11/23125338/things-to-do-munduk-bali-673x600.jpg 673w, https://static.saltinourhair.com/wp-content/uploads/2019/11/23125338/things-to-do-munduk-bali-909x810.jpg 909w"
-                  class="lazypreload lazyautosizes ls-is-cached lazyloaded"
-                  alt="7 Great Things To Do in Munduk, North Bali"
-                  width="673"
-                  height="600"
-                  sizes="357px"
-                  srcset="
-                    https://static.saltinourhair.com/wp-content/uploads/2019/11/23125338/things-to-do-munduk-bali-673x600.jpg 673w,
-                    https://static.saltinourhair.com/wp-content/uploads/2019/11/23125338/things-to-do-munduk-bali-909x810.jpg 909w
-                  "
-                />
-              </div>
-            </div>
-          </a>
-        </div>
-        <li class="blog-item">
-          <div
-            class="blog-frame"
-            title="12 x Things To Do on Nusa Lembongan &amp; Ceningan"
-          >
-            <div class="blog-content">
-              <h2 class="blog-title">
-                12 x Things To Do on Nusa Lembongan &amp; Ceningan
-              </h2>
-              <h3 class="blog-subtitle">Bali</h3>
-            </div>
-            <div class="article-block__image">
-              <div class="article-block__image-link">
-                <img
-                  class="blog-img"
-                  src="https://static.saltinourhair.com/wp-content/uploads/2019/10/23131200/nusa-lembongan-guide-30x22.jpg"
-                  data-sizes="auto"
-                  data-srcset="https://static.saltinourhair.com/wp-content/uploads/2019/10/23131200/nusa-lembongan-guide-800x600.jpg 800w, https://static.saltinourhair.com/wp-content/uploads/2019/10/23131200/nusa-lembongan-guide-1080x810.jpg 1080w"
-                  class="lazypreload lazyautosizes ls-is-cached lazyloaded"
-                  alt="12 x Things To Do on Nusa Lembongan &amp; Ceningan"
-                  width="800"
-                  height="600"
-                  sizes="357px"
-                  srcset="
-                    https://static.saltinourhair.com/wp-content/uploads/2019/10/23131200/nusa-lembongan-guide-800x600.jpg   800w,
-                    https://static.saltinourhair.com/wp-content/uploads/2019/10/23131200/nusa-lembongan-guide-1080x810.jpg 1080w
-                  "
-                />
-              </div>
-            </div>
-          </div>
-        </li>
-      </ul>
+      <ul id="blogList" class="blog-list"></ul>
     </section>
 
     <script type="module" src="../scripts/main.js"></script>

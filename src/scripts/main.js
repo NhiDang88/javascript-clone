@@ -59,3 +59,22 @@ app.init();
 
 // }
 
+//   render = (filter) => {
+  //     const category = document.getElementById("category");
+
+  //     category.addEventListener("change", (event) => {
+  //       const element = event.target;
+  //       const value = element.value;
+
+  //       filter(value);
+  //     });
+  //   };
+
+  //   init = (controller) => {
+  //     category.addEventListener("change", (event) => {
+  //       const element = event.target;
+  //       const value = element.value;
+
+  //       controller.getCate(value);
+  //     });
+  //   };

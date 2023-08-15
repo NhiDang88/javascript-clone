@@ -35,23 +35,35 @@ export default class DestinationView {
     this.displayDestinationList(filteredDestinations);
   };
 
-  //   render = (filter) => {
-  //     const category = document.getElementById("category");
+  // Function to display blog list
+  displayBlogList = (blogs) => {
+    const blogList = document.getElementById("blogList");
+    blogList.innerHTML = "";
 
-  //     category.addEventListener("change", (event) => {
-  //       const element = event.target;
-  //       const value = element.value;
+    blogs.forEach((blog) => {
+      const listItem = document.createElement("li");
+      listItem.innerHTML = `
+      <div class="blog-frame">
+        <div class="blog-content">
+          <h2 class="blog-title">${blog.title}</h2>
+          <h3 class="blog-subtitle">${blog.country}</h3>
+         </div>
+        <img class="blog-img" src="${blog.image}" alt="${blog.country}" />
+      </div>
+        `;
+      blogList.appendChild(listItem);
+    });
+  };
 
-  //       filter(value);
-  //     });
-  //   };
+  // Function to display the popup
+  displayPopup = () => {
+    const popupContainer = document.getElementById("popupContainer");
+    popupContainer.style.display = "block";
+  };
 
-  //   init = (controller) => {
-  //     category.addEventListener("change", (event) => {
-  //       const element = event.target;
-  //       const value = element.value;
-
-  //       controller.getCate(value);
-  //     });
-  //   };
+  // Function to close the popup
+  closePopup = () => {
+    const popupContainer = document.getElementById("popupContainer");
+    popupContainer.style.display = "none";
+  };
 }
